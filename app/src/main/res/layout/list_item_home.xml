@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_sitt"
+    android:background="@color/black"
+    android:layout_marginTop="-1dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_marginLeft="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="120dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp" />
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_marginLeft="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="40dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/textViewDataSale"
+        android:layout_marginLeft="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="120dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp" />
+    <TextView
+        android:id="@+id/textViewPriceSale"
+        android:layout_marginLeft="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="40dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/textViewFinal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="80dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>
